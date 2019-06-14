@@ -24,6 +24,7 @@ import resources.Base;
 public class TestCase2 extends Base {
 	CRMHomePage home;
 	AccountSettingsPage asp;
+	//code successfully pushed to git - correction verification
 
 	// Browser initialization and successful login to CRM Homepage
 	@BeforeTest
@@ -41,7 +42,6 @@ public class TestCase2 extends Base {
 		login.Password().sendKeys(pwd);
 		login.CRMLogin().click();
 	}
-
 	// opening Account settings and validating each link
 	@Test
 	public void AccountSettingsTests() throws InterruptedException {
