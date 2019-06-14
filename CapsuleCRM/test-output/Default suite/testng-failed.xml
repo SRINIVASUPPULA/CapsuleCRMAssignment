@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="NALA3.CapsuleCRM.TestCase2">
+        <methods>
+          <include name="AccountSettingsTests"/>
+          <include name="CRMLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- NALA3.CapsuleCRM.TestCase2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
